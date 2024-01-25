@@ -16,11 +16,13 @@ function checkAge(age) {
     return confirm('Did parents allow you?');
   }
 }
+//1. En utilisant un opérateur point d'interrogation `?`
+return (age > 18) ? true : confirm ("did parents allow you?");
+//2. En utilisant OU `||`
+return (age > 18) || confirm("did parents allow u ?");
 ```
 
 Réécrivez-le, pour effectuer la même chose, mais sans `if`, et en une seule ligne.
 
 Faites deux variantes de `checkAge` :
 
-1. En utilisant un opérateur point d'interrogation `?`
-2. En utilisant OU `||`
