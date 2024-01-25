@@ -22,7 +22,7 @@ function checkAge(age) {
 ```
 
 La fonction fonctionnera-t-elle différemment si `else` est supprimé ?
-
+Oui
 ```js
 function checkAge(age) {
   if (age > 18) {
@@ -36,3 +36,4 @@ function checkAge(age) {
 ```
 
 Existe-t-il une différence dans le comportement de ces deux variantes ?
+Oui dans la deuxieme meme si la condition d'est pas lue , le confirm sera quand meme lancé
