@@ -7,7 +7,7 @@ importance: 4
 Pour chaque boucle, notez les valeurs qui vont s'afficher. Ensuite, comparez avec la réponse.
 
 Les deux boucles `alert` les mêmes valeurs ou pas ?
-
+apparement c'est la meme chose
 1. La forme postfix :
 
     ```js

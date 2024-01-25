@@ -6,6 +6,8 @@
 //   if (confirm(question)) yes();
 //   else no();
 // }
+for (let i = 0; i < 5; i++) alert( i );
+for (let i = 0; i < 5; ++i) alert( i );
 ask = (question,yes,no) =>{
       if (confirm(question)) yes();
       else no();
