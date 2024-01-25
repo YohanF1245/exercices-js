@@ -22,5 +22,19 @@ switch (browser) {
   default:
     alert( 'We hope that this page looks ok!' );
 }
+
+if(browser ==="Edge"){
+  alert("you've got Edge");
+}else if(browser ==="Chrome"){
+
+}else if(browser ==="Firefox"){
+
+}else if(browser ==="Safari"){
+
+}else if(browser ==="Opera"){
+  alert("Okay we support these browsers too");
+}else{
+  alert("We hope that this page looks ok!");
+}
 ```
 
