@@ -7,7 +7,7 @@ importance: 5
 Réécrivez ce `if` en utilisant l'opérateur conditionnel `'?'` :
 
 ```js
-let result;
+let result = (a + b < 4) ? "Below" : "Over";
 
 if (a + b < 4) {
   result = 'Below';
