@@ -9,7 +9,10 @@ Réécrire ce `if..else` en utilisant plusieurs opérateurs ternaires `'?'`.
 Pour plus de lisibilité, il est recommandé de diviser le code en plusieurs lignes.
 
 ```js
-let message;
+let message = (login == "Employee") ? "hello" :
+(login == "Director") ? "Greetings" :
+(login == "No login") ? "" :
+;
 
 if (login == 'Employee') {
   message = 'Hello';
